@@ -1,0 +1,5 @@
+{
+    "mongodbURI": "process.env.mongodbURI",
+    "EMAIL": "process.env.EMAIL",
+    "PASSWORD": "process.env.PASSWORD"
+}

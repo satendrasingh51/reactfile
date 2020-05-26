@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "mongoose": "^5.9.12",
+    "nodemailer": "^6.4.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
