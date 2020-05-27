@@ -23,7 +23,7 @@ class Register extends Component {
             this.setState({ data: res.data })
         } catch (error) {
             if (error) {
-                this.setState({ msg: error.response.data.msg })
+                // this.setState({ msg: error.response.data.msg })
             }
         }
     }
