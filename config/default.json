@@ -1,5 +1,5 @@
 {
-    "mongodbURI": "process.env.mongodbURI",
-    "EMAIL": "process.env.EMAIL",
-    "PASSWORD": "process.env.PASSWORD"
+    "mongodbURI": "mongodb://localhost:27017/domesticIndia",
+    "EMAIL": "ss719851@gmail.com",
+    "PASSWORD": "Singh&7536"
 }
