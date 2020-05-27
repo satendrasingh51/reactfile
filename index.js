@@ -1,13 +1,13 @@
 var express = require('express');
 var path = require('path');
-const connectDB = require('./config/db')
+// const connectDB = require('./config/db')
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var studentRouter = require('./routes/student')
 
 var app = express();
 
-connectDB();
+// connectDB();
 
 
 app.use(express.json());
