@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "config": "^3.3.1",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "express-fileupload": "^1.1.7-alpha.3",
     "mongoose": "^5.9.12",
     "nodemailer": "^6.4.6"
